@@ -8,19 +8,26 @@
   <body>
     <canvas id="canvas" width="800" height="800"></canvas>
 
-    <img id="image"></img>
-     <script src="fill_800.js"></script>
+    
+     <script  src="file:///E:/test/fill_800_pixels_641600.js"></script>
         <script >
-       let pixel=1000;
-       let h=800;
-       let w=800;
-       for(let col=0;col<=255;col+=1){
-       let rr=255-col;
-      let gg=col;
-      let bb=0; 
-
-        fill("canvas",pixel,h,w,rr,gg,bb);
-       }    
+       
+        var pixeli=0;
+        var pixel=641600;
+      var rr=0;
+      var gg=0;
+      var bb=0;
+      
+      
+       
+      
+       while(pixeli++<=pixel){
+        
+           fill("canvas",pixeli
+      ,rr,gg,bb); 
+        }
+       
+      
     </script>
      
   </body>
